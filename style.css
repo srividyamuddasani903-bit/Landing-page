@@ -1,0 +1,121 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#fff;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px 30px;
+background:white;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+color:brown;
+}
+
+nav a{
+text-decoration:none;
+margin-left:15px;
+color:black;
+font-weight:16px;
+}
+
+.hero{
+text-align:center;
+padding:40px 20px;
+background:linear-gradient(to right,#8B4513,#D2691E);
+color:white;
+}
+
+.hero h1{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.hero p{
+margin-bottom:15px;
+}
+
+.hero button{
+padding:10px 20px;
+border:none;
+background:gold;
+border-radius:30px;
+font-weight:bold;
+cursor:pointer;
+}
+
+.why{
+padding:10px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:10px;
+margin-top:15px;
+flex-wrap:wrap;
+}
+
+.card{
+width:120px;
+padding:8px;
+background:white;
+box-shadow:0 0 10px lightgray;
+border-radius:10px;
+}
+
+.flavours{
+padding:10px;
+text-align:center;
+}
+
+.gallery{
+display:flex;
+justify-content:center;
+gap:10px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.gallery img{
+width:100px;
+height:100px;
+border-radius:10px;
+box-shadow:0 4px 8px
+rgba(0,0,0,0,3);
+object-fit:cover;
+}
+
+.offer{
+margin:10px;
+padding:10px;
+background:#fff6cc;
+border:2px dashed orange;
+text-align:center;
+}
+
+.contact{
+padding:10px;
+text-align:center;
+background:#f8f8f8;
+}
+button:hover{
+    background:#ff9800;
+    cursor:pointer;
+}
+body{
+    margin:0;
+    padding:0;
+}
